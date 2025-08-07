@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News Today</title>
+  <link rel="stylesheet" href="cyclocarpum.css" />
+</head>
+<body>
+  <header>
+    <h1>News Today</h1>
+    <a href="index.html">
+      <button type="button" style="margin-top:10px;">Back to Home</button>
+    </a>
+  </header>
+
+  <main class="articles">
+    <article class="news-card" onclick="toggleArticle(this)">
+      <h2>My environmental trip in Jiangsu</h2>
+      <p class="summary">My trip to the environmental markets of China</p>
+      <div class="full-article">
+        <p>Yixing County is unexpectedly an unfamous 
+          sustainable dream city with many environmental 
+          enterprises settled together. From micro, small and 
+          medium enterprises located in an “Environmental 
+          Protection Supermarket” to laboratories and 
+          institutions dedicated to ecological research, city
+          level projects, sustainable remediation of water in 
+          rural places and environmental equipment 
+          exhibition centers.  </p>
+          <p>Click the link below to download the full report in PDF format:</p>
+    <a href="C:\Users\azofe\OneDrive\Escritorio\cyclocarpumwebsite\reports\ecomarkets.pdf" download="Yixing_Report.pdf">Download PDF</a>
+      </div>
+    </article>
+
+    <article class="news-card" onclick="toggleArticle(this)">
+      <h2>My trip to Jakarta, Indonesia</h2>
+      <p class="summary">Many people say its perfect city, but one issue: Traffic jams</p>
+      <div class="full-article">
+        <p>During my trip in Indonesia I managed to grasp different transportation methods, and compared them to analyze their impacts</p>
+        <p>Click the link below to download the full report in PDF format:</p>
+    <a href="C:\Users\azofe\OneDrive\Escritorio\cyclocarpumwebsite\reports\jakarta.pdf" download="Jakarta_Report.pdf">Download PDF</a>
+      </div>
+    </article>
+<article class="news-card" onclick="toggleArticle(this)">
+      <h2>Comparing different commuting times around the World</h2>
+      <p class="summary">What role does urbanism play in private car and public transporation use</p>
+      <div class="full-article">
+        <p>A dense urbanism with mixed use vertical developments are great developments for the development of a soceity as a whole</p>
+        <p>Click the link below to download the full report in PDF format:</p>
+    <a href="C:\Users\azofe\OneDrive\Escritorio\cyclocarpumwebsite\reports\cities.pdf" download="Jakarta_Report.pdf">Download PDF</a>
+      </div>
+    </article>
+  </main>
+
+  <script>
+    function toggleArticle(card) {
+      card.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

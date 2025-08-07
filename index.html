@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclocarpum</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="nav-buttons">
+            <a href="cyclocarpum.html">
+            <button class="transparent-button">Cyclocarpum</button>
+        </a>
+        </div>
+        <div class="language-box">
+            <img src="images/logos/langlogo.png" alt="Languages">
+            <div class="dropdown">
+                <img src="images/logos/en.png" alt="English" onclick="translatePage('en')">
+                <img src="images/logos/es.png" alt="Español" onclick="translatePage('es')">
+                <img src="images/logos/it.png" alt="Italiano" onclick="translatePage('it')">
+                <img src="images/logos/de.png" alt="Deutsch" onclick="translatePage('de')">
+                <img src="images/logos/zh.png" alt="中文" onclick="translatePage('zh')">
+            </div>
+        </div>
+            <!-- Add more flags as needed -->
+        </div>
+    </header>
+    <section id="about" class="section section-about">
+        <div class="background-banner"></div>
+        <div class="container">
+            <div class="profile-picture">
+                <img src="images/aboutme.jpg" alt="AboutMe"> 
+            </div>
+            <div p class="profile-text" data-en="Fabian Azofeifa L." data-zh="范比安"></p>
+            </div>
+            <div class="about-content">
+                <h2 id="about-title" class="water-effect" data-en="Hello," data-es="Hola," data-it="Ciao," data-de="Hallo", data-zh="哈喽" >Hello,</h2>
+                <p class="water-effect" data-en="Coming from a small and developing country, I saw the green revolution in a developed economy while living in Beijing. I experienced one of the most polluted years in history of the world and observed how technology and new solutions helped reduce pollution over time. Many environmental groups appeared during this period, and that's how I shaped what I have been constructing in my career."
+                   data-es="Soy un especialista en ciencias ambientales. Me apasiona la sostenibilidad y la conservación de la naturaleza. Mi objetivo es contribuir en crear un mundo más verde y limpio para las generaciones futuras."
+                   data-it="Sono uno specialista in scienze ambientali. Sono appassionato di sostenibilità. Il mio obiettivo è contribuire, ovunque mi trovi, a creare una città più sostenibile ed efficiente per le future generazioni."
+                   data-de="Ich bin Spezialist für Umweltwissenschaften und begeistere mich für Nachhaltigkeit. Mein Ziel ist es, überall, wo ich bin, zu einer nachhaltigeren und effizienteren Stadt für zukünftige Generationen beizutragen."
+                   data-zh="我是环境科学专家，对可持续发展充满热情。我的目标是无论身在何处，都能为创造更加可持续和高效的城市贡献力量，造福未来世代。">
+                   I'm a tourism and hospitality marketing specialist based in Milano, Italy, with a passion for creating unforgettable experiences and connecting with people from all over the world.
+                </p>
+                <a href="https://www.linkedin.com/in/cyclocarpum/" class="btn" target="_blank">LinkedIn</a>
+            </div>
+            <div class="mini-logo">
+                <a href="https://en.ustb.edu.cn/" target="_blank">
+                    <img src="images/logos/logoustb.png" alt="minilogo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+<div class="logo-grid">
+    <div class="logo-card logo-large" onclick="toggleText('logo1-text')">
+        <img src="images/logos/logo1.png" alt="logo1">
+    </div>
+    <div class="logo-card logo-large" onclick="toggleText('logo2-text')">
+        <img src="images/logos/logo2.png" alt="logo2">
+    </div>
+    <div class="logo-card" onclick="toggleText('logo3-text')">
+        <img src="images/logos/logo3.png" alt="logo3">
+    </div>
+    <div class="logo-card logo-large" onclick="toggleText('logo4-text')">
+        <img src="images/logos/logo4.png" alt="logo4">
+    </div>
+    
+</div>
+<div id="logo1-text" class="logo-text">
+    <button class="close-btn" onclick="toggleText('logo1-text')">X</button>
+    <h3>Seproma Almacén Técnico</h3>
+    <h4 data-en="September 2022 – Present, San José, Costa Rica"
+        data-it="Settembre 2022 – Presente, San José, Costa Rica"
+        data-es="Setiembre 2022 - Presente, San José, Costa Rica"
+        data-de="September 2022 – heute, San José, Costa Rica"></h4>
+    <ul>
+        <p data-en="I grew up in a family that works with machines, so I learned how to repair and maintain them from an early age. Through hands-on experience, I developed problem-solving skills and learned how to diagnose and fix different types of machines."
+           data-es="Crecí en una familia que trabaja con máquinas, por lo que aprendí a repararlas y mantenerlas desde una edad temprana. A través de la experiencia práctica, desarrollé habilidades para resolver problemas y aprendí a diagnosticar y reparar diferentes tipos de máquinas."
+           data-it="Sono cresciuto in una famiglia che lavora con le macchine, quindi ho imparato a ripararle e mantenerle fin da giovane. Grazie all’esperienza pratica, ho sviluppato capacità di risoluzione dei problemi e ho imparato a diagnosticare e riparare diversi tipi di macchine."
+           data-de="Ich bin in einer Familie aufgewachsen, die mit Maschinen arbeitet, daher habe ich schon früh gelernt, sie zu reparieren und zu warten. Durch praktische Erfahrung entwickelte ich Problemlösungsfähigkeiten und lernte, verschiedene Arten von Maschinen zu diagnostizieren und zu reparieren."
+           data-zh="我在一个从事机械工作的家庭中长大，因此从小就学会了维修和保养机械。通过实践经验，我培养了解决问题的能力，并学会了如何诊断和修理不同类型的机器。"></p>
+    </ul>
+</div>
+
+<div id="logo2-text" class="logo-text">
+    <button class="close-btn" onclick="toggleText('logo2-text')">X</button>
+    <h3>Frankfurt School of Finance and Management</h3>
+    <h4 data-en="September 2022 – April 2023, Online"
+    data-it="Settembre 2022 – Aprile 2023, Online"
+    data-es="Setiembre 2022 - Abril, 2023, En linea"
+    data-de="September 2022 – April 2023, Online"
+    data-zh="2022年9月 - 2023年4月，在线"></h4>
+    <ul>
+        <p data-en="Inspired by the many professionals we hosted at our events on the green economy in China and sustainable finance, I decided to expand my knowledge in this field at the Frankfurt School of Finance and Management. There, I became familiar with topics such as the European Green Taxonomy, ESG, and Renewable Energy Finance."
+           data-es="Inspirado por los muchos profesionales que recibimos en nuestros eventos sobre economía verde en China y finanzas sostenibles, decidí ampliar mis conocimientos en este campo en la Frankfurt School of Finance and Management. Allí me familiaricé con temas como la Taxonomía Verde Europea, ESG y Finanzas de Energías Renovables."
+           data-it="Ispirato dai molti professionisti che abbiamo ospitato ai nostri eventi sull’economia verde in Cina e sulla finanza sostenibile, ho deciso di ampliare le mie conoscenze in questo campo alla Frankfurt School of Finance and Management. Lì ho approfondito argomenti come la Tassonomia Verde Europea, ESG e la Finanza delle Energie Rinnovabili."
+           data-de="Inspiriert von den vielen Fachleuten, die wir bei unseren Veranstaltungen zur grünen Wirtschaft in China und nachhaltigen Finanzen begrüßten, entschied ich mich, mein Wissen in diesem Bereich an der Frankfurt School of Finance and Management zu erweitern. Dort machte ich mich mit Themen wie der Europäischen Grünen Taxonomie, ESG und der Finanzierung erneuerbarer Energien vertraut."
+           data-zh="受我们在中国举办的绿色经济和可持续金融活动中众多专业人士的启发，我决定在法兰克福金融管理学院拓展这一领域的知识。在那里，我熟悉了欧洲绿色分类、ESG和可再生能源金融等主题。"
+           ></p>
+    </ul>
+</div>
+
+<div id="logo3-text" class="logo-text">
+    <button class="close-btn" onclick="toggleText('logo3-text')">X</button>
+    <h3>Green Shield</h3>
+    <h4 data-en="September 2018 – January 2019, Beijing, China"
+    data-it="Settembre 2018 – Gennaio 2019, Beijing, China"
+    data-es="Setiembre 2018 - Enero, 2019, Beijing, China"
+    data-de="September 2018 – Januar 2019, Peking, China"
+    data-zh="2018年9月 - 2019年1月，北京"></h4>
+    <ul>
+        <p data-en="The Green Shield is a primarily Chinese environmental club at my university. As the only foreign student in a mostly Chinese community, I successfully established and served as a bridge to lead a subgroup in our foreign students' building, focusing on a recycling program."
+           data-es="Green Shield es un club ambiental principalmente chino en mi universidad. Como el único estudiante extranjero en una comunidad mayoritariamente china, logré establecer y servir como puente para liderar un subgrupo en el edificio de los estudiantes extranjeros, centrándonos en un programa de reciclaje."
+           data-it="Green Shield è un club ambientale prevalentemente cinese nella mia università. Essendo l’unico studente straniero in una comunità per lo più cinese, sono riuscito a creare e fungere da ponte per guidare un sottogruppo nell’edificio degli studenti stranieri, concentrandoci su un programma di riciclaggio."
+           data-de="The Green Shield ist ein hauptsächlich chinesischer Umweltclub an meiner Universität. Als einziger ausländischer Student in einer überwiegend chinesischen Gemeinschaft gelang es mir, eine Untergruppe in unserem Wohnheim für ausländische Studierende aufzubauen und als Brücke zu dienen, um ein Recyclingprogramm zu leiten."
+           data-zh="绿盾是我大学里主要由中国学生组成的环保俱乐部。作为一个在以中国学生为主的社区中唯一的外国学生，我成功建立了一个小组，并作为桥梁，在外国学生宿舍楼内领导了一个专注于回收计划的分组"></p>
+    </ul>
+</div>
+
+<div id="logo4-text" class="logo-text">
+    <button class="close-btn" onclick="toggleText('logo4-text')">X</button>
+    <h3>Beijing Energy Network</h3>
+    <h4 data-en="July 2018 – December 2019, Beijing, China"
+    data-it="Luglio 2018 – Dicembre, 2019, Beijing, China"
+    data-es="Julio 2018 - Diciembre, 2019, Beijing, China"
+    data-de="Juli 2018 – Dezember 2019, Peking, China"
+    data-zh="2018年7月 - 2019年12月，北京"></h4>
+    <ul>
+        <p data-en="At the Beijing Energy Network, I volunteered alongside professionals in environmental sciences who gathered at various venues to give speeches to the international community about their expertise. As a foreign representative, I also visited renewable energy cities in China, where we had conversations with the local authorities on these topics."
+        data-es="En Beijing Energy Network, fui voluntario junto a profesionales en ciencias ambientales que se reunían en diversos lugares para dar discursos a la comunidad internacional sobre su experiencia. Como representante extranjero, también visité ciudades de energía renovable en China, donde tuvimos conversaciones con las autoridades locales sobre estos temas."
+        data-it="Alla Beijing Energy Network, ho fatto volontariato insieme a professionisti delle scienze ambientali che si riunivano in vari luoghi per tenere discorsi alla comunità internazionale sulla loro esperienza. Come rappresentante straniero, ho anche visitato città dell’energia rinnovabile in Cina, dove abbiamo avuto conversazioni con le autorità locali su questi temi."
+        data-de="Beim Beijing Energy Network habe ich gemeinsam mit Fachleuten aus den Umweltwissenschaften freiwillig gearbeitet. Diese trafen sich an verschiedenen Orten, um Vorträge für die internationale Gemeinschaft über ihr Fachwissen zu halten. Als ausländischer Vertreter besuchte ich auch Städte für erneuerbare Energien in China, wo wir Gespräche mit den örtlichen Behörden zu diesen Themen führten."
+        data-zh="在北京能源网络，我与环境科学专业人士一起做志愿者，他们在不同场所向国际社会发表演讲，分享他们的专业知识。作为外国代表，我还访问了中国的可再生能源城市，并与当地政府就这些议题进行了交流。"
+           ></p>
+    </ul>
+</div>
+
+
+</div>
+<div class="youtube-section">
+    <div class="banner">
+        <img src="images/ytbanner.png" alt="Channel Banner">
+    </div>
+    <div class="content">
+        <img class="channel-img" src="images/logos/logopecentric.png" alt="Channel Image">
+        <div class="text">
+            <h2>Pe centric</h2>
+            <p data-en="Inspired by Costa Rica's NDCs, I decided to delve into one of the country's pressing environmental issues: urban mobility." 
+            data-it="Ispirato dalle NDC della Costa Rica, ho deciso di approfondire una delle questioni ambientali più urgenti del paese: la mobilità urbana."
+            data-es="Inspirado por las NDC de Costa Rica, decidí profundizar en uno de los problemas ambientales más urgentes del país: la movilidad urbana."
+            data-de="Inspiriert von den NDCs Costa Ricas, beschloss ich, mich mit einem der dringendsten Umweltprobleme des Landes zu befassen: der urbanen Mobilität."
+            data-zh="受哥斯达黎加国家自主贡献（NDCs）的启发，我决定深入研究该国面临的一个紧迫环境问题：城市交通。"
+            ></p>
+            <a href="https://www.youtube.com/watch?v=uzKqWwL9LzQ" target="_blank" class="watch-btn">Watch on YouTube</a>
+        </div>
+        <div class="social-logo">
+            <a href="https://www.instagram.com/pecentric/" target="_blank">
+                <img src="images/logos/iglogo.png" alt="sociallogo">
+            </a>
+            <a href="https://www.tiktok.com/@pecentric" target="_blank">
+                <img src="images/logos/ttlogo.png" alt="sociallogo">
+            </a>
+        </div>
+    </div>
+</div>
+
+<section id="contact" class="section">
+    <h2 id="contact-title" class="water-effect" data-en="Contact Me" data-es="Contáctame" data-it="Contattami" data-de="Kontakt" data-zh="联系我" >Contact Me</h2>
+    <ul>
+        <li>Email: <a href="mailto:azofeifa.fa@gmail.com">azofeifa.fa@gmail.com</a></li>
+    </ul>
+</section>
+</div>
+
+<footer>
+    <p>&copy; 2025. All rights reserved.</p>
+</footer>
+<script src="index.js"></script> 
+
+</body>
+</html>
